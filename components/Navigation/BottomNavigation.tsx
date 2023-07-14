@@ -25,7 +25,7 @@ const BottomNavigation = () => {
             onClick={() => {
               setCurrentPage(1);
             }}
-            size={32}
+            size={28}
             color={`${currentPage === 1 ? "white" : "gray"}`}
           />
         </Link>
@@ -35,7 +35,7 @@ const BottomNavigation = () => {
             onClick={() => {
               setCurrentPage(2);
             }}
-            size={32}
+            size={28}
             color={`${currentPage === 2 ? "white" : "gray"}`}
           />
         </Link>
@@ -45,7 +45,7 @@ const BottomNavigation = () => {
             onClick={() => {
               setCurrentPage(3);
             }}
-            size={32}
+            size={28}
             color={`${currentPage === 3 ? "white" : "gray"}`}
           />
         </Link>
@@ -55,7 +55,7 @@ const BottomNavigation = () => {
             onClick={() => {
               setCurrentPage(4);
             }}
-            size={32}
+            size={28}
             color={`${currentPage === 4 ? "white" : "gray"}`}
           />
         </Link>
@@ -65,7 +65,7 @@ const BottomNavigation = () => {
             onClick={() => {
               setCurrentPage(5);
             }}
-            size={32}
+            size={28}
             color={`${currentPage === 5 ? "white" : "gray"}`}
           />
         </Link>

@@ -19,8 +19,18 @@ const Profile = () => {
     <div>
       <main className="p-6">
         <HeaderIcons />
-        <Header />
-        <Information />
+        <Header
+          name="Diyar Karimzadeh"
+          username="diyarkarimzadeh"
+          platform="threads.net"
+          userImage="https://www.fakepersongenerator.com/Face/female/female20161025235219666.jpg"
+        />
+        <Information
+          bio="Frontend Developer"
+          followerCount="2k followers"
+          link="https://youtube.com/diyarkarimzadeh"
+          linkTitle="Youtube Link"
+        />
         <Actions />
         <ProfileTabs />
       </main>
