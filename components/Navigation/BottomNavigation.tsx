@@ -19,7 +19,7 @@ const BottomNavigation = () => {
   const { currentPage, setCurrentPage } = useStore();
   return (
     <div>
-      <div className="h-[64px] w-[100vw] fixed bottom-0 right-0 left-0 flex flex-row items-center justify-around bg-black">
+      <div className="h-[64px] w-[100vw] fixed bottom-0 right-0 left-0 flex flex-row items-center justify-around bg-[rgb(16,16,16)]">
         <Link href="/">
           {/* <Home
             onClick={() => {

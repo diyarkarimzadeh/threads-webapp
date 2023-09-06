@@ -1,3 +1,5 @@
+import { FollowCartProps } from "@/components/Search/FollowCard";
+
 interface Thread {
   id: number;
   username: string;
@@ -7,6 +9,7 @@ interface Thread {
   replies: number;
   userWhoReplies: string;
   createdAt: string;
+  isVerified: boolean;
 }
 
 export const threads: Thread[] = [
@@ -21,6 +24,7 @@ export const threads: Thread[] = [
     userWhoReplies:
       "https://www.fakepersongenerator.com/Face/male/male20161086287283478.jpg",
     createdAt: "2h",
+    isVerified: false,
   },
   {
     id: 2,
@@ -34,6 +38,7 @@ export const threads: Thread[] = [
     userWhoReplies:
       "https://www.fakepersongenerator.com/Face/male/male20161086287283478.jpg",
     createdAt: "2h",
+    isVerified: false,
   },
   {
     id: 3,
@@ -47,6 +52,7 @@ export const threads: Thread[] = [
     userWhoReplies:
       "https://www.fakepersongenerator.com/Face/male/male20161086287283478.jpg",
     createdAt: "3h",
+    isVerified: false,
   },
   {
     id: 4,
@@ -60,6 +66,7 @@ export const threads: Thread[] = [
     userWhoReplies:
       "https://www.fakepersongenerator.com/Face/male/male20161086287283478.jpg",
     createdAt: "3h",
+    isVerified: false,
   },
   {
     id: 5,
@@ -73,6 +80,7 @@ export const threads: Thread[] = [
     userWhoReplies:
       "https://www.fakepersongenerator.com/Face/male/male20161086287283478.jpg",
     createdAt: "3h",
+    isVerified: false,
   },
 ];
 
@@ -88,6 +96,7 @@ export const mainThreads: Thread[] = [
     userWhoReplies:
       "https://www.fakepersongenerator.com/Face/male/male20161086287283478.jpg",
     createdAt: "45m",
+    isVerified: true,
   },
   {
     id: 2,
@@ -100,6 +109,7 @@ export const mainThreads: Thread[] = [
     userWhoReplies:
       "https://www.fakepersongenerator.com/Face/male/male20161086287283478.jpg",
     createdAt: "2h",
+    isVerified: true,
   },
   {
     id: 3,
@@ -113,6 +123,7 @@ export const mainThreads: Thread[] = [
     userWhoReplies:
       "https://www.fakepersongenerator.com/Face/male/male20161086287283478.jpg",
     createdAt: "3h",
+    isVerified: false,
   },
   {
     id: 4,
@@ -126,6 +137,7 @@ export const mainThreads: Thread[] = [
     userWhoReplies:
       "https://www.fakepersongenerator.com/Face/male/male20161086287283478.jpg",
     createdAt: "3h",
+    isVerified: false,
   },
   {
     id: 5,
@@ -139,5 +151,55 @@ export const mainThreads: Thread[] = [
     userWhoReplies:
       "https://www.fakepersongenerator.com/Face/male/male20161086287283478.jpg",
     createdAt: "3h",
+    isVerified: false,
+  },
+  {
+    id: 6,
+    username: "wesbos",
+    userImage:
+      "https://www.fakepersongenerator.com/Face/female/female20161025235219666.jpg",
+    threadText:
+      "I have very little faith the threads desktop experience will ever be good given how stunted and buggy the instagram web/desktop is.",
+    likes: 59,
+    replies: 11,
+    userWhoReplies:
+      "https://www.fakepersongenerator.com/Face/male/male20161086287283478.jpg",
+    createdAt: "5d",
+    isVerified: false,
+  },
+];
+
+export const followerCardsData: FollowCartProps[] = [
+  {
+    id: 1,
+    userImage:
+      "https://www.fakepersongenerator.com/Face/female/female20161025235219666.jpg",
+    username: "diyarkarimzadeh",
+    name: "Diyar Karimzadeh",
+    followerCount: "201",
+  },
+  {
+    id: 2,
+    userImage:
+      "https://www.fakepersongenerator.com/Face/female/female20161025235219666.jpg",
+    username: "princi.vershwal",
+    name: "Princi Vershwal",
+    followerCount: "585",
+  },
+  {
+    id: 3,
+    userImage:
+      "https://www.fakepersongenerator.com/Face/female/female20161025235219666.jpg",
+    username: "nothing",
+    name: "Nothing",
+    followerCount: "174K",
+  },
+  {
+    id: 4,
+    userImage:
+      "https://www.fakepersongenerator.com/Face/female/female20161025235219666.jpg",
+    username: "theviewabc",
+    name: "The View",
+    followerCount: "75.7K",
   },
 ];
